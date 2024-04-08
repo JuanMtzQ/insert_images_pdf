@@ -17,7 +17,7 @@ plt.ioff()
 fig, ax = plt.subplots(nrows = 1, ncols = 1) 
 ax.set_title('Figure_1')
 ax.plot(x, y)
-fig.savefig('images/Image1.png')
+fig.savefig('images/Image1.png', dpi = 300)
 #plt.show()
 
 image = fitz.Pixmap('images/Image1.png')
